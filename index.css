@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+#hero {
+    padding: 10px;
+    background: #6943FF;
+    color: white;
+}
+#converted {
+  background: #1F2937;
+  color: #CCC1FF;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#input-el {
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 80px;
+    height: 60px;
+    background: #6943FF;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center
+}
+.units {
+    margin: 20px;
+    background: #273549;
+    padding: 16px 40px;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    background: white;
+    margin: 20px;
+    padding: 10px 20px;
+    font-weight: normal
+}
+.units-el {
+    color: white;
+}
+.measure {
+    padding-bottom: 10px; 
+    border-bottom: 1px solid;
+}
