@@ -37,12 +37,12 @@ btnEL.addEventListener("click", () => {
         
         massEl.textContent = `${inputEl.value} kilogram = ${obj.kiloToPound} pounds | ${inputEl.value} pound = ${obj.poundToKilo} kilograms`
     } else {
-    let obj = units.convert(inputEl.value)
-    lengthEl.textContent = `${inputEl.value} meters = ${obj.meterToFeet} feet | ${inputEl.value} feet = ${obj.feetToMeters} meters`
-    
-    volumeEl.textContent = `${inputEl.value} liters = ${obj.literToGallon} gallons | ${inputEl.value} gallons = ${obj.gallonToLiters} liters`
-    
-    massEl.textContent = `${inputEl.value} kilograms = ${obj.kiloToPound} pounds | ${inputEl.value} pounds = ${obj.poundToKilo} kilograms`
+        let obj = units.convert(inputEl.value)
+        lengthEl.textContent = `${inputEl.value} meters = ${obj.meterToFeet} feet | ${inputEl.value} feet = ${obj.feetToMeters} meters`
+        
+        volumeEl.textContent = `${inputEl.value} liters = ${obj.literToGallon} gallons | ${inputEl.value} gallons = ${obj.gallonToLiters} liters`
+        
+        massEl.textContent = `${inputEl.value} kilograms = ${obj.kiloToPound} pounds | ${inputEl.value} pounds = ${obj.poundToKilo} kilograms`
     }
     
 })
