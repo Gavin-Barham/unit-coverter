@@ -16,7 +16,7 @@ let units = {
             meterToFeet: (this.meterToFeet * num).toFixed(3),
             literToGallon: (this.literToGallon * num).toFixed(3),
             kiloToPound: (this.kiloToPound * num).toFixed(3),
-            feetToMeters: (this.meterToFeet * num).toFixed(3),
+            feetToMeters: (this.feetToMeters * num).toFixed(3),
             gallonToLiters: (this.gallonToLiters * num).toFixed(3),
             poundToKilo: (this.poundToKilo * num).toFixed(3)
         }
