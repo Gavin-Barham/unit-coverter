@@ -29,10 +29,11 @@ const volumeEl = document.getElementById("volume-el")
 const massEl = document.getElementById("mass-el")
 
 btnEL.addEventListener("click", () => {
-    lengthEl.textContent = `${inputEl.value} meters = ${units.meterToFeet} feet | ${inputEl.value} feet = ${units.feetToMeters} meters`
+    let obj = units.convert(inputEl.value)
+    lengthEl.textContent = `${inputEl.value} meters = ${obj.meterToFeet} feet | ${inputEl.value} feet = ${obj.feetToMeters} meters`
     
-    volumeEl.textContent = `${inputEl.value} liters = ${units.literToGallon} gallons | ${inputEl.value} gallons = ${units.gallonToLiters} liters`
+    volumeEl.textContent = `${inputEl.value} liters = ${obj.literToGallon} gallons | ${inputEl.value} gallons = ${obj.gallonToLiters} liters`
     
-    massEl.textContent = `${inputEl.value} kilograms = ${units.kiloToPound} pounds | ${inputEl.value} pounds = ${units.poundToKilo} kilograms`
+    massEl.textContent = `${inputEl.value} kilograms = ${obj.kiloToPound} pounds | ${inputEl.value} pounds = ${obj.poundToKilo} kilograms`
     
 })
